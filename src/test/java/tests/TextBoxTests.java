@@ -30,6 +30,6 @@ public class TextBoxTests {
         $("[id=submit]").click();
 
         $("[id=output]").shouldHave(text(name), text("alex@egorov.com"),
-                text("Some address 1"), text("Another address 2"));
+                    text("Some address 1"), text("Another address 2"));
     }
 }
